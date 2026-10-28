@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171329">
+  <meta name="description" content="AnimeVault.id — galeri wallpaper anime, pencarian karakter, detail wallpaper, dan unduhan resolusi tinggi.">
+  <title>AnimeVault.id — Anime Wallpaper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="AnimeVault beranda"><span class="brand-mark">✦</span><span>AnimeVault<span class="dot">.id</span></span></a>
+    <nav aria-label="Navigasi utama"><a class="active" href="#gallery">Jelajahi</a><a href="#about">Tentang</a></nav>
+    <a class="header-cta" href="#gallery">Temukan wallpaper <span>↗</span></a>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> YOUR NEXT PHONE WALLPAPER</div>
+        <h1>Dunia anime.<br><span>Versi layar kamu.</span></h1>
+        <p>Jelajahi wallpaper karakter favoritmu, temukan mood yang pas, dan unduh karya yang tersedia dalam format gambar.</p>
+        <a class="hero-button" href="#gallery">Jelajahi koleksi <span>↓</span></a>
+        <div class="hero-stats"><div><strong id="wallpaperCount">12</strong><span>desain demo</span></div><i></i><div><strong>9:16</strong><span>mobile friendly</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi abstrak penuh warna"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orb orb-three"></div><div class="hero-spark spark-a">✦</div><div class="hero-spark spark-b">✧</div><div class="hero-poster"><span class="poster-top">ANIME / ART / ENERGY</span><div class="poster-symbol">影</div><span class="poster-bottom">FIND YOUR<br>OWN UNIVERSE.</span></div><div class="art-tag">VOL. 002 <span>✦</span></div></div>
+    </section>
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading"><div><div class="eyebrow">THE COLLECTION</div><h2>Temukan <span>vibe</span>-mu.</h2></div><p>Mulai dari desain demo. Tambahkan artwork anime berizin lewat folder gambar atau file katalog.</p></div>
+      <div class="tools">
+        <label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Cari karakter, judul, anime, atau mood..." autocomplete="off"><kbd>/</kbd></label>
+        <div class="filters" id="filters" aria-label="Filter kategori"><button class="filter active" data-filter="Semua">Semua <span id="allCount">12</span></button><button class="filter" data-filter="Neon">Neon</button><button class="filter" data-filter="Fantasy">Fantasy</button><button class="filter" data-filter="Minimal">Minimal</button><button class="filter" data-filter="Dark">Dark</button><button class="filter" data-filter="Anime">Anime</button></div>
+        <select id="sortSelect" aria-label="Urutkan wallpaper"><option value="featured">Pilihan</option><option value="az">Nama A–Z</option><option value="za">Nama Z–A</option></select>
+      </div>
+      <div class="results-line"><span id="resultsLabel">Menampilkan wallpaper</span><span class="demo-note"><span>●</span> ORIGINAL DEMO + CUSTOM IMAGES</span></div>
+      <div class="gallery" id="galleryGrid"></div>
+      <div class="empty-state" id="emptyState" hidden><div>✧</div><h3>Belum ketemu.</h3><p>Coba kata kunci atau filter lain.</p><button id="resetSearch">Reset pencarian</button></div>
+    </section>
+    <section class="callout" id="about"><div class="callout-icon">✷</div><div><div class="eyebrow">MAKE IT YOURS</div><h2>Layarmu, duniamu.</h2><p>Galeri ini mendukung gambar lokal JPG, PNG, dan WebP melalui katalog JavaScript. Gunakan artwork yang kamu miliki atau punya izin untuk publikasikan.</p></div><a href="#gallery">Lihat koleksi <span>↗</span></a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">✦</span><span>AnimeVault<span class="dot">.id</span></span></a><span>Made for anime fans, with love. <span class="footer-heart">♥</span></span><span>© <span id="year"></span> AnimeVault.id</span></footer>
+  <dialog id="detailDialog" class="detail-dialog"><button class="modal-close" id="closeModal" aria-label="Tutup detail">×</button><div id="modalArt" class="modal-art"></div><div class="modal-copy"><div class="eyebrow">WALLPAPER DETAILS</div><h2 id="modalTitle">Wallpaper</h2><p id="modalDescription"></p><div class="modal-tags" id="modalTags"></div><div class="modal-actions"><a id="modalDownload" class="hero-button" download>Unduh wallpaper <span>↓</span></a><button id="modalCopy" class="secondary-button">Salin info</button></div><p class="modal-note">Gunakan gambar sesuai lisensi atau izin pemiliknya.</p></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

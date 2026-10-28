@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Neon Ronin",
+    "category": "Neon",
+    "mood": "Electric violet",
+    "symbol": "刀",
+    "tag": "NEON / 01",
+    "bg": "linear-gradient(155deg,#221447,#6938b7 48%,#f45d9b)",
+    "colors": [
+      "#221447",
+      "#f45d9b"
+    ],
+    "orb": "linear-gradient(135deg,#f7ef78,#ff6db0)",
+    "description": "Palet neon ungu dan merah muda dengan nuansa ronin futuristik.",
+    "anime": "Original demo",
+    "image": null
+  },
+  {
+    "title": "Dream Shrine",
+    "category": "Fantasy",
+    "mood": "Dreamy spirit",
+    "symbol": "鳥",
+    "tag": "FANTASY / 02",
+    "bg": "linear-gradient(155deg,#173f55,#42bcb6 55%,#d4f6c8)",
+    "colors": [
+      "#173f55",
+      "#d4f6c8"
+    ],
+    "orb": "linear-gradient(135deg,#f8f3c7,#f1a8dc)",
+    "description": "Suasana lembut yang terinspirasi oleh taman roh dan alam fantasi.",
+    "anime": "Original demo",
+    "image": null
+  },
+  {
+    "title": "Crimson Echo",
+    "category": "Dark",
+    "mood": "Midnight red",
+    "symbol": "月",
+    "tag": "DARK / 03",
+    "bg": "linear-gradient(155deg,#170f26,#712b4b 58%,#ec695f)",
+    "colors": [
+      "#170f26",
+      "#ec695f"
+    ],
+    "orb": "linear-gradient(135deg,#ffb26b,#f04472)",
+    "description": "Palet gelap dengan aksen merah untuk tampilan layar yang dramatis.",
+    "anime": "Original demo",
+    "image": null
+  },
+  {
+    "title": "Cloud Runner",
+    "category": "Minimal",
+    "mood": "Soft blue",
+    "symbol": "雲",
+    "tag": "MINIMAL / 04",
+    "bg": "linear-gradient(155deg,#a6d7f7,#c6b9ff 60%,#ffe4ee)",
+    "colors": [
+      "#a6d7f7",
+      "#ffe4ee"
+    ],
+    "orb": "linear-gradient(135deg,#ffffff,#8ad9f6)",
+    "description": "Komposisi minimal bernuansa langit biru, lavender, dan pastel.",
+    "anime": "Original demo",
+    "image": null
+  }
+]
